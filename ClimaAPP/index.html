@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles.css">
+    <title>ClimaClic</title>
+</head>
+<body>
+    <header class="hero">
+        <h1 class="tittle font">ClimaType</h1>
+        <form id="form">
+            <input type="text" id="input" class="input" placeholder="Ingresa el nombre de la ciudad" autocomplete="off">
+        </form>  
+    </header>
+
+    <div id="container" class="container"> 
+        <section class="box">
+            <div class="temperature-box">
+                <p class="temperature font"><span class="font" id="temperature">--</span>°C</p>
+                <!-- <div></div> -->
+            </div>
+            <div class="details-box">
+                <p class="font-details font">Sensación Termica: <span class="font-details" id="thermal_sensation">--</span>°C</p>
+                <!-- <div ></div> -->
+                <p class="font-details font">Humedad: <span class="font-details" id="humidity">--</span>%</p>
+                <!-- <div ></div> -->
+                <p class="font-details font">Presión: <span class="font-details" id="pressure">--</span>hPa</p>
+                <!-- <div ></div> -->
+            </div>
+        </section>
+        <!-- <section></section> -->
+    </div>
+
+    <footer class="footer font font-details">
+        <p>Desarrollado por: <span>Eric</span> Rosales Díaz.</p>
+    </footer>
+    <script src="app.js"></script>
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+</body>
+</html>
