@@ -31,36 +31,3 @@ function giveWeather(data){
 }
 
 cityWeather();
-
-
-
-// const fetchCalling = position => {
-//     const {latitude, longitude} = position.coords;
-//     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city_name},uk&appid=${API_KEY}`)
-//         .then(response => response.json())
-//         .then(data => console.log(data))
-//         console.log(data)
-// }
-
-
-
-
-
-
-    // let url = 'https://pokeapi.co/api/v2/pokemon/1/';
-    // try {
-    //     const respuesta = await fetch(url);
-    //     const otraRespuesta = await respuesta.json()
-    //     console.log(otraRespuesta)
-    // } catch (error) {
-    //     console.log(error)
-    // }
-
-
-// const log = position => {
-//     console.log(position);
-// }
-// const userPosition = () => { //arrow que permite pedir la localización al usuario y mandarla al log
-//     navigator.geolocation.getCurrentPosition(log)
-// }
-
