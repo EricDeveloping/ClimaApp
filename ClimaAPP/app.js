@@ -24,7 +24,6 @@ function giveWeather(data){
         humidity: data.main.humidity,
         pressure: data.main.pressure,
     }
-    // document.innerHTML = `<img src="icons/${weather[0].id}.png`
     Object.keys(weatherObj).forEach(key => {
         document.getElementById(key).innerHTML = weatherObj[key]; //el mismo iterador busca los id's que tienen el mismo nombre que el de los objetos
     })
